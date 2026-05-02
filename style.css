@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 1.5rem;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -7,12 +14,10 @@ header{
 header h1{
     font-size: 3rem;
 }
-header h2{
+h2{
     font-size: 2.5rem;
 }
-header p{
-    font-size: 1.5rem;
-}
+
 header a{
     font-size: 1.5rem;
     text-decoration: none;
@@ -41,4 +46,57 @@ header a{
     height: 40vh;
     border-radius: 50%;
     
+}
+.vague{
+    background-color: white;
+    line-height: 0;
+}
+
+.vague svg{
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+main{
+    margin: 0 auto;
+    height: 800px;
+    max-width: 800px;
+}
+.date{
+    display: flex;
+    justify-content: end;
+    color: #10063E;
+}
+.object{
+    text-decoration: underline;
+    color: #D42F34;
+    font-weight: bold;
+}
+.vague-footer {
+    background-color: white;
+    line-height: 0;
+}
+.vague-footer svg {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+.object p{
+    color: #D42F34;
+}
+main p {
+    color: #10063E;
+    text-indent: 2em;
+    margin: 20px;
+}
+footer p{
+    margin: 0 20px;
+    text-align: center;
+}
+footer h2{
+    margin-left: 20px;
+}
+footer{
+    background-color: #10063E;
+    color: #ffffff;
 }
